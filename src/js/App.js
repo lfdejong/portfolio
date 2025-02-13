@@ -1,21 +1,20 @@
 import '../css/App.css';
+import "../css/Embla.css";
+import React from "react";
+import EmblaCarousel from "./EmblaCarousel";
+import Header from "./Header";
+import Footer from "./Footer";
+
+const OPTIONS = { loop: true };
+const SLIDE_COUNT = 5;
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <Footer />
     </div>
   );
 }
