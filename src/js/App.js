@@ -1,19 +1,16 @@
 import '../css/App.css';
-import "../css/Embla.css";
-import React from "react";
-import EmblaCarousel from "./EmblaCarousel";
+import { React } from "react";
+import Portfolio from "./Portfolio"
 import Header from "./Header";
 import Footer from "./Footer";
 
-const OPTIONS = { loop: true };
-const SLIDE_COUNT = 5;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+//carousel variables
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <Portfolio/>
       <Footer />
     </div>
   );

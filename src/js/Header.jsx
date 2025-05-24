@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Header = () => (
-  <header>
-    <h1 className="header">Embla Carousel Generator React</h1>
+  <header className="header">
+    <h3 className="fix-stroke">Levi de Jong - Portfolio</h3>
   </header>
 )
 
