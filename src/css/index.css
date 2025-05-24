@@ -1,0 +1,15 @@
+body {
+  margin: 20;
+  font-family: "jacquarda-bastarda-9", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ACD7A6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:"jacquarda-bastarda-9",
+    sans-serif;
+    color: #ACD7A6;
+}
